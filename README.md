@@ -7,7 +7,7 @@ The installer specification **is a zip file with the following** structure:
 <table>
 <tr>
   <th>Windows</th>
-  <th>Linux</th>
+  <th>Linux (Not Yet Implemented)</th>
 </tr>
 <tr>
 <td>
