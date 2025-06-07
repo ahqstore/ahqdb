@@ -15,7 +15,7 @@ The installer specification **is a zip file with the following** structure:
 (ZIP File)
 install.ahqdb
 ├── dist/
-│   └── (files to extract into install directory)
+│   └── (files to extract)
 ├── install.ps1
 ├── uninstall.ps1
 ├── update.ps1
@@ -28,7 +28,7 @@ install.ahqdb
 (ZIP File)
 install.ahqdb
 ├── dist/
-│   └── (files to extract into install directory)
+│   └── (files to extract)
 ├── install.sh
 ├── uninstall.sh
 ├── update.sh
