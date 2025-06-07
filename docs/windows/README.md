@@ -19,7 +19,7 @@ install.ahqdb
 - [uninstall.ps1](#uninstallps1)
 - [update.ps1](#updateps1)
 - [link.toml](#linktoml)
-- [.build]
+- [.build](#build)
 
 ## `dist` directory
 
