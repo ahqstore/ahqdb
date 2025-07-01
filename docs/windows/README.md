@@ -41,15 +41,16 @@ The ps1 script should exit with the following exit codes:
 - `EXECUTION_MODE`
 
   > Either `UserMode` or `AdminMode`
+  > This script is always run as **CURRENT USER**
 
-  - **UserMode**: The `install.ps1` script is ran as the current user.
-  - **AdminMode**: The `install.ps1` script is ran as the admin user.
+  - **UserMode**: The `install.ps1` script was ran as the current user.
+  - **AdminMode**: The `install.ps1` script was ran as the admin user.
 
   > ### Note
   >
-  > a. `UserMode` also means that the application is being installed for the current user
+  > a. `UserMode` also means that the application has been installed for the current user
   >
-  > b. `AdminMode` also means that the application is being installed for the whole machine
+  > b. `AdminMode` also means that the application has been installed for the whole machine
 
 ## `install.ps1`
 
